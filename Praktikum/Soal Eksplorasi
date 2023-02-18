@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Print("Input kata yang ingin dimasukkan: ")
+	fmt.Scan("Input kata yang ingin dimasukkan: ")
 
 	// Membaca inputan dari console
 	scanner := bufio.NewScanner(os.Stdin)
@@ -29,8 +29,8 @@ func main() {
 
 	// Menampilkan hasil
 	if isPalindrome {
-		fmt.Printf("%s adalah palindrome\n", input)
+		fmt.Scan("%s adalah palindrome\n", input)
 	} else {
-		fmt.Printf("%s bukan palindrome\n", input)
+		fmt.Scan("%s bukan palindrome\n", input)
 	}
 }
