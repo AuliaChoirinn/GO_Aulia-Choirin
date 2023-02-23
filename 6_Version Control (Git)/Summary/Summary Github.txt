@@ -1,0 +1,6 @@
+Pada section ke 6 yakni mengenai GIT mempelajari mengenai definisi dari GIT yakni salah satu VCS yang popular untuk mengembangkan software bersama-sama, kemudian definisi mengenai versoning yang merupakan pelacak perubahan yang bertujuan untuk untuk mengetahui apa yang salah. Beberapa tools yang terdiri dari Version Control System (VCS) Source Code Manager (SCM) Revision Control System (RCS).
+Selanjutnya mengenai beberapa versi pada control system yakni :
+1.	Single User  
+2.	Centralized
+3.	Distribute
+Dan terakhir mempelajari mengenai tools yang sedang digunakan saat ini yakni GIT mulai dari cara install, setting up, menyimpan perubahan, memeriksa repository, dan menyinkronkan, braches, lalu pull request, dan kemudian workflow collaboration, dan terakhir ¬let the master branch 1 undisturbed. 
