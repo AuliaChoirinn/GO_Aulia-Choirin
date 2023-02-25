@@ -1,0 +1,8 @@
+Pada section ke 7 ini mempelajari mengenai time complexity and space complexity dimana time complexity yakni menghitung algoritma/system itu akan berjalan dalam hal waktu, kemudian mempelajari mengenai menentukan dominan opration, selanjutnya mengenai banyak jenis dari time kompleksitas yakni 
+1.	O(1) — Constant Time : Artinya banyaknya input yang diberikan kepada sebuah algoritma, tidak akan mempengaruhi waktu proses (runtime) dari algoritma tersebut.
+2.	O(log n) — Logarithmic Time : kita memberikan input sebesar n terhadap sebuah fungsi, jumlah tahapan yang dilakukan oleh fungsi tersebut berkurang berdasarkan suatu faktor.
+3.	O(n) — Linear Time : runtime dari fungsi kita berbanding lurus dengan jumlah input yang diberikan.
+4.	O(n²) — Quadratic Time : runtime dari fungsi kita adalah sebesar n^2, dimana n adalah jumlah input dari fungsi tersebut
+5.	O(2^n) — Exponential Time : digunakan dalam situasi dimana kita tidak terlalu tahu terhadap permasalahan yang dihadapi, sehingga mengharuskan kita mencoba setiap kombinasi dan permutasi dari semua kemungkinan.
+Dan juga beberapa kompleksitas yang berkaitan dengan memori
+Dan terakhir mengenai space kompleksitas yakni menyatakan berapa banyak ruang dalam memori yang dibutuhkan suatu algoritma ketika beroperasi 
