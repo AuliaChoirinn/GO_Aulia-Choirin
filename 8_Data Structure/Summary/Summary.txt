@@ -1,5 +1,0 @@
-Pada section ke 8 membahas mengenai data structure yang terdiri dari 3 yakni
-1.	Array yang merupakan data struktur berisikan group of element dan hanya bisa menyimpan 1 variabel yang sudah dinyatakan fix
-2.	Slice dimana merupakan struktur data yang mirip dengan array namun sifatnya lebih dinamis
-3.	Map merupakan struktur data yang memiliki “key”  yang bersifat unik dan setiap “key” memiliki sebuah value
-Selanjutnya mengenai function yakni sekumpulan code yang dikelompokkan dan dinamakan dengan nama tertentu atau bisa disebut juga sebagai sekelompok pernyataan yang bersama-sama melakukan tugas. Setiap program Go memiliki setidaknya satu fungsi, yaitu main ()
