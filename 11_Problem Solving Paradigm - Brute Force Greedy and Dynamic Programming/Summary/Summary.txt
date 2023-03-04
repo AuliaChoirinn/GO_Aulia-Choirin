@@ -1,0 +1,9 @@
+Pada section ini mempelajari mengenai problem solving paradigm yang terdiri dari 
+1. Brute force
+2. Divide and Conquer
+3. Greedy 
+4. Dynamic Programming
+terdapat karakteristik dari dynamic programming yakni 
+1. overlapping subproblems  : ketika kita menjadi solusi dan subproblem akan dicari 
+2. Optimal substruktur properti dimana setiap problem menggunakan problem itu sendiri (bersifat optimal)
+Terdapat method berupa top down with memoization, dan bottom up with tabulation (menyelesaikan masalah dari terkecil/utama)
