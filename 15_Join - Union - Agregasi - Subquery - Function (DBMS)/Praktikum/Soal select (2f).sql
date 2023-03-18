@@ -1,3 +1,3 @@
 SELECT *
 FROM products
-WHERE id = 3;
+LIMIT 5;
