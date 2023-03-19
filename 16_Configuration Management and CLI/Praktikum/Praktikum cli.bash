@@ -1,31 +1,20 @@
 #!/bin/bash
 
-# Check if arguments are provided
-if [[ $# -ne 3 ]]; then
-    echo "Usage: $0 <folder_name> <facebook_username> <linkedin_username>"
-    exit 1
-fi
+# Get arguments
+dir_name="$1 Sunday at $(date)"
+facebook_username="$2"
+linkedin_username="$3"
 
-# Create directory structure
-mkdir -p "$1/about_me/personal"
-mkdir -p "$1/about_me/professional"
-mkdir -p "$1/my_friends"
-mkdir -p "$1/my_system_info"
+# Create directories
+mkdir -p "$dir_name/about_me/personal"
+mkdir -p "$dir_name/about_me/professional"
+mkdir -p "$dir_name/my_friends"
+mkdir -p "$dir_name/my_system_info"
 
 # Create files
-touch "$1/about_me/personal/facebook.txt"
-touch "$1/about_me/professional/linkedin.txt"
-touch "$1/my_friends/list_of_my_friends.txt"
-touch "$1/my_system_info/about_this_laptop.txt"
-touch "$1/my_system_info/internet_connection.txt"
-
-# Populate files with data
-echo "https://www.facebook.com/$2" > "$1/about_me/personal/facebook.txt"
-echo "https://www.linkedin.com/in/$3" > "$1/about_me/professional/linkedin.txt"
-curl https://raw.githubusercontent.com/auliachoirin/friends/main/friends.txt > "$1/my_friends/list_of_my_friends.txt"
-echo "My username: $(whoami)" > "$1/my_system_info/about_this_laptop.txt"
-echo "With host: $(uname -a)" >> "$1/my_system_info/about_this_laptop.txt"
-ping -c 3 google.com > "$1/my_system_info/internet_connection.txt"
-
-# Print success message
-echo "Folder structure created successfully in $(pwd)/$1"
+echo "https://www.facebook.com/$facebook_username" > "$dir_name/about_me/personal/facebook.txt"
+echo "https://www.linkedin.com/in/$linkedin_username" > "$dir_name/about_me/professional/linkedin.txt"
+curl -o "$dir_name/my_friends/list_of_my_friends.txt" https://example.com/list_of_my_friends.txt
+echo "My username: $(whoami)" > "$dir_name/my_system_info/about_this_laptop.txt"
+echo "With host: $(uname -a)" >> "$dir_name/my_system_info/about_this_laptop.txt"
+ping -c 3 google.com > "$dir_name/my_system_info/internet_connection.txt"
