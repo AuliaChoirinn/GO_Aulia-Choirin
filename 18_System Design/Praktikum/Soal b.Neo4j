@@ -1,6 +1,0 @@
-MATCH (u:User)
-RETURN u
-// Jika ingin mengambil data pengguna tertentu, bisa menambahkan kondisi WHERE dalam perintah MATCH, seperti berikut:
-MATCH (u:User)
-WHERE u.id = '12345'
-RETURN u

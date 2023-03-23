@@ -1,5 +1,0 @@
-SCAN 0 MATCH user:* COUNT 1000
-HGETALL user:id_pengguna_1
-HGETALL user:id_pengguna_2
-SCAN 0 MATCH user:* COUNT 1000
-
