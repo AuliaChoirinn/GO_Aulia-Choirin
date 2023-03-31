@@ -4,4 +4,4 @@ Nah, fungsi dari middleware sendiri untuk untuk menambahkan fungsionalitas terte
 Middleware dapat terdiri dari beberapa fungsi atau "handler" yang dijalankan secara berurutan dan dapat meningkatkan fleksibilitas, skalabilitas, dan keamanan aplikasi web dengan lebih mudah dan efisien.
 Selanjutnya, terdapat basic auth yang merupakan implementasi keamanaan sederhana berupa username dan password pada url / route yang direquest. Basic auth ini mengharuskan untuk menggunakan Authorization pada header dan di ikuti kata basic dengan isinya 
 Selanjutnya, mengenai JWT middleware merupakan salah satu standar JSON (RFC 7519) untuk keperluan akses token. Token dibentuk dari kombinasi beberapa informasi yang di-encode dan di-enkripsi. Dengan system yang reversible 
-JWT middleware digunakan saat user/client melakukan autentikasi dan mendapatkan token, maka untuk seterusnya setiap request harus menyertakan token tersebut. 
+JWT middleware digunakan saat user/client melakukan sebuah autentikasi dan mendapatkan token, maka untuk seterusnya setiap request harus menyertakan token tersebut. 

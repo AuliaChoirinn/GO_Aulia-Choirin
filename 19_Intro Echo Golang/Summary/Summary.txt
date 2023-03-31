@@ -6,4 +6,4 @@
 -	Template rendering: Echo menyediakan fitur rendering template menggunakan beberapa engine template seperti HTML, JSON, XML, dan plain text.
 -	WebSocket: Echo juga mendukung penggunaan WebSocket untuk membangun aplikasi real-time yang interaktif.
 -	Testing: Echo menyediakan library testing yang memungkinkan pengembang untuk melakukan testing otomatis pada aplikasi web yang dibuat menggunakan Echo.
-3.	Dengan fitur-fitur yang dimilikinya, Echo sangat cocok digunakan untuk membangun aplikasi web yang scalable dan performa tinggi. Selain itu, Echo juga memiliki dokumentasi yang lengkap dan komunitas pengembang yang besar yang siap membantu jika terdapat kendala dalam penggunaannya.
+3.	Selain itu juga, echo digunakan untuk membangun aplikasi web yang scalable dan performa tinggi. Selain itu, Echo juga memiliki dokumentasi yang lengkap dan komunitas pengembang yang besar yang siap membantu jika terdapat kendala dalam penggunaannya.
