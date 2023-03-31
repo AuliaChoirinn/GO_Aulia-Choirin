@@ -1,0 +1,10 @@
+Pada section ini mempelajari dan membahas mengenai ORM, dimana dapat disimpulkan bahwa ORM sendiri merupakan teknik yang merubah suatu table menjadi sebuah object yang nantinya mudah untuk digunakan. Object yang dibuat memiliki property yang sama dengan field — field yang ada pada table tersebut. Sehingga ORM memungkinkan kita melakukan query dan memanipulasi data di database menggunakan object oriented. 
+ORM untuk mempermudah mengakses database tanpa melakukan query sama sekali.
+Cara kerja dari ORM sendiri yakni awalnya, kita perlu mendefinisikan suatu object. Lalu kita buat field — field pada object sesuai dengan field — field pada table di database.
+Misalkan kita akan membuat object bernama makanan. Field yang dimiliki adalah id, nama, harga. Selanjutnya object tersebut dapat kita gunakan untuk melakukan CRUD tanpa menggunakan query.
+Selanjutnya, mengenai code structure yang  merupakan Kode digunakan untuk tujuan mengklasifikasikan data,memasukkan data ke dalam computer dan untuk mengambil bermacam‐macam informasi. Kode dapat dibentuk dari kumpulan angka, huruf dan karakter‐karakter khusus.
+Tujuan ataupun manfaat dari adanya struktur kode yakni berupa  untuk mengklasifikasikan data, memasukkan data ke dalam komputer dan untuk mengambil bermacam-macam informasi yang berhubungan dengannya, selain itu juga yang dapat didimpulkan mengapa kita menggunakan struktur kode adalah:
+-	Mempercepat atau mempersingkat proses penulisan baik dari elemen data. Proses penyajian maupun peng-entry-an data pada computer
+-	Menghemat media penyimpanan data seperti harddisk, dan lain-lain.
+-	Untuk mempermudah dan mempercepat proses pemasukan, pencarian serta pengolahan data guna memperoleh informasi yang akurat
+
