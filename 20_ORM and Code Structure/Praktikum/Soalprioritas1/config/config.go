@@ -1,4 +1,4 @@
-package cpnfig
+package config
 
 import (
 	"fmt"
