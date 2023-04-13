@@ -1,0 +1,7 @@
+Pada section ini mempelajari mengenai compute services khusus-nya AWS dimana sebelumnya membahas mengenai deployment yang memiliki definisi bahwa deployment sendiri merupakan kegiatan yang bertujuan untuk menyebarkan aplikasi yang telah dikerjakan oleh para pengembang
+Selanjutnya, yakni mengenai system deployment yang terdiri dari:
+- Bigbang
+- Rollout
+- Blue/green
+- dan terakhir yakni canary deployment
+Selanjutnya, dalam deployment,AWS merupakan layanan PaaS (Platform-as-a-Service) yang memungkinkan pengembang untuk dengan mudah mengirimkan aplikasi web dan backend ke lingkungan yang dapat diskalakan secara otomatis. Elastic Beanstalk secara otomatis mengelola lingkungan server dan infrastruktur, sehingga pengembang dapat fokus pada pengembangan aplikasi.mbahas mengenai AWS dimana AWS ini merupakan EC2 menyediakan berbagai pilihan jenis instans yang dioptimalkan untuk menyesuaikan kasus penggunaan yang berbeda
