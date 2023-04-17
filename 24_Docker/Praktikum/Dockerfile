@@ -8,8 +8,8 @@ RUN go mod download
 
 RUN go build -o main .
 
-ENV PORT=2424
+ENV PORT=8080
 
-EXPOSE 2424
+EXPOSE 8080
 
 CMD ["./main"]
