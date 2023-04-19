@@ -1,15 +1,16 @@
-FROM golang:1.19-alpine
+FROM golang:1.18-alpine
 
 WORKDIR /app
 
-COPY . /app
+COPY go.mod ./
+COPY go.sum ./
 
 RUN go mod download
 
-RUN go build -o main .
+COPY . .
 
-ENV PORT=8080
+RUN go build -o /docker-auliachoirin
 
-EXPOSE 8080
+EXPOSE 8000
 
-CMD ["./main"]
+CMD ["/docker-auliachoirin"]
