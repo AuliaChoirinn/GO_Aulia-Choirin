@@ -1,0 +1,11 @@
+Pada section ini mempelajari mengenai clean code dimana memiliki sebuah definisi sebagai kode yang mudah dibaca, dipahami, dan dapat diubah oleh programmer. Clean code digunakan untuk berkolaborasi dan ketika kita membuat sebuah fitur baru tujuan dari hal tersebut adalah mudah dibaca dan dipahami (faster development), karakteristik dari clean code berupa 
+1.  Penamaan dapat dipahami
+2. Mudah dieja dan dicari
+3. Singkat namun dapat mendeskripsikan konteks
+4. konsisten dalam penamaan 
+5. Hindari penambahan konteks yang tidak perlu
+6. Komentar dimana kita hanya memberikan komentar pada satu blok code tanpa banyak komentar dan name harus sesuai/cukup dengan peruntukkannya 
+7. Good function dimana kita tidak boleh terbalik dalam menginputkan sebuah argumen 
+8. Gunakan konvensi 
+9. Formatting dengan adanya beberapa karakteristik 
+Terdapat clean code prinsipal yakni menghindari fungsi yang dapat melakukan beberapa hal dimana fungsi harus kecil, dibuat untuk melakukan satu tugas saja, tidak terlalu banyak argumen pada fungsi, selain KISS juga terdapat DRY dimana untuk mengindari duplikasi. Salah satunya tujuan dari clean code adalah refaktoring yakni proses restrukturisasi kode yang telah dibuat. Teknik dari refaktoring yakni membuat abstraksi kemudian memecah kode, perbaiki penamaan dan kemudian deteksi kode duplikasi

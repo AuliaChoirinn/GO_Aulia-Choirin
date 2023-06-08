@@ -1,0 +1,12 @@
+Pada section ini mempelajari mengenai string yang merupakan sebuah data yang bisa dikatakan berisikan beberapa karakter. Pada string terda[at beberapa data seperti:
+1. Menghitung panjang karakter string
+2. Mengambil Karakter Pada Posisi Tertentu
+3. Dan juga membandingkan antara string 1 dengan string yang lainnya
+Kedua yakni mengenai advance function yang terdiri dari:
+1. Variadic function: function yang dapat menerima sejumlah variabel sebagai argumen
+2. Anonymous function:  fungsi yang dideklarasikan tanpa pengidentifikasi bernama apa pun untuk merujuknya. Fungsi anonim dapat menerima input dan mengembalikan output, seperti halnya fungsi standar
+3. Counter: merupakan struct baru
+4. Defer function: bisa didefinisikan sebagai sebuah statement dimana fungsinya adalah untuk menjalankan suatu fungsi tertentu di akhir operasi.
+Ketiga yakni pointer, yang merupakan reference atau alamat memori. Variabel pointer berarti variabel yang berisi alamat memori suatu nilai. 
+Keempat, terdapat struct yang merupakan kumpulan definisi variabel (atau property) dan atau fungsi (atau method), yang dibungkus sebagai tipe data baru dengan nama tertentu. Property dalam struct, tipe datanya bisa bervariasi. Mirip seperti map , hanya saja key-nya sudah didefinisikan di awal, dan tipe data tiap itemnya bisa berbeda.
+Dan, kelima terdapat method yakni function dengan tambahan parameter receiver_argument type

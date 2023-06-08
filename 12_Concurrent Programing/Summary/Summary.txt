@@ -1,0 +1,10 @@
+Pada section ini membahas mengenai concurrent program, terdapat poin penting yang saya dapat berupa: 
+1.	Sekuential program yakni secara berurutan yang dimulai dengan task yang pertama, kemudian ada 
+2.	Pararel program dimana kita mengerjakan 3 pekerjaan bisa dilukan secara simultan, dan 
+3.	Concurrent program dimana kita mengerjakan tugas secara bersamaan dan berdiri sendiri 
+Selanjutnya, di dalam golang terdapat goroutine yang merupakan sebuah fungsi proses yang menjalankan sebuah concurrent , channel yang digunakan untuk komunikasi Cara menggunakan channel yakni dengan menggunakan panah ke kiri untuk menginput sebuah data, dan select berfungsi sebagai control/untuk mengontrol channel komunikasi. Channel dan select digunakan untuk melakukan sebuah komunikasi antara goroutine 1 dengan lainnya.
+Cara melakukan pengamanan sebuah data yakni:
+1.	Waitgrup: untuk ngeblock read akses (berupa struct)  yang digunakan untuk log goroutine
+2.	Channel bloking: untuk men-sinkronisasi goroutine 1 dengan lainnya 
+3.	Mutex: mekanisme yang di gunakan untuk mengunci dan membuka kunci sebuah data
+

@@ -1,0 +1,8 @@
+Section kali ini membahas mengenai clean arsitektur dimana dapat disimpulkan bahwa dalam konsep clean architecture, setiap komponen yang ada bersifat independen dan tidak bergantung pada library external yang spesifik. Seperti tidak tergantung pada spesifik framework atau tidak bergantung pada spesifik database yang dipakai.
+Dalam clean arsitektur terdapat beberapa layer pada setiap domainnya, berupa:
+-	Models: layer ini merupakan layer yang menyimpan model yang dipakai pada domain lainnya. Layer ini dapat diakses oleh semua layer dan oleh semua domain.
+-	Repository: layer ini merupakan layer yang menyimpan database handler. Querying, Inserting, Deleting akan dilakukan pada layer ini.
+-	Usecase: layer ini merupakan layer yang akan bertugas sebagai pengontrol, yakni menangangi business logic pada setiap domain
+-	Delivery: layer ini merupakan layer yang akan bertugas sebagai presenter atau menjadi output
+Selanjutnya mengenai context pada golang yang merupakan sebuah data yang isinya membawa value, sinyal cancel, sinyal timeout dan sinyal deadline. Context biasanya dibuat per request(misal setiap ada request masuk ke server melalui http request), context digunakan untuk mempermudah kita meneruskan value, dan sinyal antar proses.
+

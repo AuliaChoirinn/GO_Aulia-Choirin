@@ -1,0 +1,7 @@
+Pada section ini mempelajari serta membahas mengenai apa aitu middleware, dimana dapat saya simpulkan bahwa middleware ini merupakan software yang ditempatkan di antara aplikasi dan sistem operasi atau antara aplikasi yang berbeda untuk membantu komunikasi dan interaksi di antara komponen-komponen system.
+Pada aplikasi web, middleware adalah sebuah layer software yang ditempatkan di antara permintaan yang diterima oleh server web dan respons yang dikirimkan oleh server web.
+Nah, fungsi dari middleware sendiri untuk untuk menambahkan fungsionalitas tertentu pada aplikasi web seperti autentikasi, autorisasi, caching, logging, manipulasi data, dll.
+Middleware dapat terdiri dari beberapa fungsi atau "handler" yang dijalankan secara berurutan dan dapat meningkatkan fleksibilitas, skalabilitas, dan keamanan aplikasi web dengan lebih mudah dan efisien.
+Selanjutnya, terdapat basic auth yang merupakan implementasi keamanaan sederhana berupa username dan password pada url / route yang direquest. Basic auth ini mengharuskan untuk menggunakan Authorization pada header dan di ikuti kata basic dengan isinya 
+Selanjutnya, mengenai JWT middleware merupakan salah satu standar JSON (RFC 7519) untuk keperluan akses token. Token dibentuk dari kombinasi beberapa informasi yang di-encode dan di-enkripsi. Dengan system yang reversible 
+JWT middleware digunakan saat user/client melakukan sebuah autentikasi dan mendapatkan token, maka untuk seterusnya setiap request harus menyertakan token tersebut. 

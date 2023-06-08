@@ -1,0 +1,13 @@
+Pada section ini mempelajari mengenai dimana Recursive merupakan situasi ketika kita membuat function yang memanggil dari function tersebut atau bisa dikatakan recursive merupakan  Function yang memanggil dirinya sendiri
+Fungsi dari recursive adalah dapat mempersingkat dan juga seperti perulangan. Karena tingkah lakunya yang mengulang-ulang setiap pemanggilan dirinya
+Hal yang harus diperhatikan saat menggunakan recursive adalah:
+1. Solusi dasar dimana adanya perhitungan rumus dasar
+2. Kemudian setelah ditemukan Solusi tersebut, solusi ini digunakan sebagai solusi dari masalah yang lebih kecil
+Selanjutnya, terdapat number theory dimana cabang matematika yang berhubungan dengan sifat dan perilaku bilangan. Ini adalah bidang dasar matematika yang digunakan di banyak bidang ilmu komputer, seperti keamanan komputer, teori pengkodean, dan teori kompleksitas, pada number theory biasanya terdiri dari bilangan prima, FPB, KPK, dan faktorial
+Kemudian terdapat searching yang bertujuan untuk menemukan sebuah data dari kumpulan data, pada searching terdiri dari 2 jenis yakni:
+1. Linear search - O(n) teknik pencarian data dengan menelusuri semua data satu per satu.
+2. Builtins search yang digunakan untuk integrasi sebuah data
+Dan, terakhir terdapat sorting yakni proses menyusun data dimulai dengan urutannya, pada sorting terdapat beberapa jenis yakni:
+1. Selection sort - O(n^2):sebuah teknik pengurutan dengan cara mencari nilai tertinggi / terendah di dalam array kemudian menempatkan nilai tersebut di tempat semestinya. Algorithma ini dapat mengurutkan data dari besar ke kecil (Ascending) dan kecil ke besar (Descending).
+2. Counting sort - O (n+k): sebuah teknik pengurutan dengan cara menghitung jumlah kemunculan dari setiap data yang berada di dalam array.  Pada algorithma ini kita harus membuat sebuah array penampung untuk menyimpan jumlah kemunculan data dimana ukuran dari array tersebut harus sejumlah range angka yang bisa di input oleh user. Algorithma ini dapat mengurutkan data dari besar ke kecil (Ascending) dan kecil ke besar (Descending).
+3. Builtins sort: digunakan untuk mengurutkan semua elemen Array dan koleksi

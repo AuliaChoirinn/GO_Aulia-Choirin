@@ -1,0 +1,7 @@
+1.	Pada section ini mempelajari mengenai database dimana database sendiri merupakan basis data adalah kumpulan data yang dikelola sedemikian rupa berdasarkan ketentuan tertentu yang saling berhubungan
+2.	Selanjutnya mengenai jenis perintah pada SQL (bahasa pemrograman yang digunakan dalam mengakses, mengubah, dan memanipulasi data) yang terdiri dari DDL (dimanfaatkan guna membangun kerangka database), DML (dimanfaatkan dalam manipulasi data database yang sudah dibuat. Ada 4 perintah penting di dalam DML. Keempat perintah yang dimaksud yaitu insert, select, update, dan delete.), DCL (fungsi pengontrolan data dan server database). 
+3.	Fungsi agregat di MySQL digunakan untuk menghitung beberapa nilai dan mengembalikan hasilnya sebagai nilai tunggal, seperti rata-rata semua nilai, jumlah semua nilai, dan nilai maksimum dan minimum di antara pengelompokan nilai. 
+5.	Subkueri adalah kueri yang ditumpuk di dalam SELECT pernyataan, INSERT UPDATE , atau DELETE , atau di dalam subkueri lain
+
+
+

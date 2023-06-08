@@ -1,0 +1,4 @@
+SELECT * FROM users;
+// atau 
+SELECT * FROM(u:User)
+WHERE u.id = '12345'

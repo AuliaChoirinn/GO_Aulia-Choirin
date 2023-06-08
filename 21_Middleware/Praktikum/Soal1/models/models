@@ -1,0 +1,9 @@
+type User struct {
+    gorm.Model
+    Username string `json:"username" form:"username"`
+    Password string `json:"password" form:"password"`
+}
+
+func (u *User) CheckPassword(password string) bool {
+    return u.Password == password
+}
