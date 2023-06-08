@@ -1,5 +1,12 @@
 package kategori
 
+import (
+
+	"Code_Competence/config"
+	"Code_Competence/models"
+
+)
+
 type Kategori struct {
 	Nama      string
 	Deskripsi string
